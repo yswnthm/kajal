@@ -11,8 +11,8 @@ export const Contact: React.FC = () => {
                 <div className="order-2 md:order-1 relative w-full md:w-auto">
                     <Reveal>
                         <h2 className="font-serif text-5xl md:text-7xl leading-tight text-slate-blue opacity-90">
-                            Get In<br />
-                            <span className="font-script text-6xl md:text-8xl text-warm-taupe md:ml-12 block mt-2">Touch</span>
+                            Something<br />
+                            <span className="font-script text-6xl md:text-8xl text-warm-taupe md:ml-12 block mt-2">Else</span>
                         </h2>
                     </Reveal>
                 </div>
