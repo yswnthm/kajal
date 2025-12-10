@@ -8,9 +8,11 @@ export const WorkPictures: React.FC = () => {
         <SectionWrapper id="work-photos" pageNumber="03" bgText="GALLERY">
             <div className="flex flex-col space-y-16">
                 <Reveal width="100%">
-                    <div className="flex flex-col items-center md:items-start space-y-2">
-                        <span className="font-sans text-xs tracking-[0.3em] text-warm-taupe uppercase">Visuals</span>
-                        <h3 className="font-serif text-4xl md:text-5xl text-slate-blue italic">My Work Pictures</h3>
+                    <div className="relative">
+                        <h3 className="font-serif text-5xl md:text-7xl text-slate-blue leading-tight text-center md:text-left">
+                            Visual <br />
+                            <span className="font-script text-6xl md:text-8xl text-warm-taupe ml-8 block mt-2">Stories</span>
+                        </h3>
                     </div>
                 </Reveal>
 

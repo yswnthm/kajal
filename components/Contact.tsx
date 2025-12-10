@@ -5,14 +5,14 @@ import { Instagram, Mail, MapPin } from 'lucide-react';
 
 export const Contact: React.FC = () => {
     return (
-        <SectionWrapper id="contact" pageNumber="06">
+        <SectionWrapper id="contact" pageNumber="06" bgText="CONTACT">
             <div className="flex flex-col md:flex-row h-full items-center justify-between gap-16 py-12">
 
                 <div className="order-2 md:order-1 relative w-full md:w-auto">
                     <Reveal>
-                        <h2 className="font-serif text-6xl md:text-[8rem] leading-none text-slate-blue opacity-90">
+                        <h2 className="font-serif text-5xl md:text-7xl leading-tight text-slate-blue opacity-90">
                             Get In<br />
-                            <span className="font-script text-7xl md:text-[9rem] text-warm-taupe md:ml-24 block mt-4">Touch</span>
+                            <span className="font-script text-6xl md:text-8xl text-warm-taupe md:ml-12 block mt-2">Touch</span>
                         </h2>
                     </Reveal>
                 </div>

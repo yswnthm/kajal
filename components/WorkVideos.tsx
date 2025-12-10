@@ -5,12 +5,14 @@ import { VideoCard } from './VideoCard';
 
 export const WorkVideos: React.FC = () => {
     return (
-        <SectionWrapper id="work-videos" pageNumber="04">
+        <SectionWrapper id="work-videos" pageNumber="04" bgText="MOTION">
             <div className="flex flex-col space-y-16">
                 <Reveal width="100%">
-                    <div className="flex flex-col items-center md:items-end space-y-2 text-right w-full">
-                        <span className="font-sans text-xs tracking-[0.3em] text-warm-taupe uppercase">Motion</span>
-                        <h3 className="font-serif text-4xl md:text-5xl text-slate-blue italic">My Work Videos</h3>
+                    <div className="relative text-right w-full">
+                        <h3 className="font-serif text-5xl md:text-7xl text-slate-blue leading-tight inline-block text-right">
+                            In <br />
+                            <span className="font-script text-6xl md:text-8xl text-warm-taupe ml-8 block mt-2">Motion</span>
+                        </h3>
                     </div>
                 </Reveal>
 
