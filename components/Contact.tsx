@@ -14,6 +14,9 @@ export const Contact: React.FC = () => {
                             Something<br />
                             <span className="font-script text-6xl md:text-8xl text-warm-taupe md:ml-12 block mt-2">Else</span>
                         </h2>
+                        <p className="font-sans text-lg text-slate-600 mt-8 max-w-md leading-relaxed">
+                            Let's create something unique together. Open for freelance opportunities and collaborations.
+                        </p>
                     </Reveal>
                 </div>
 
