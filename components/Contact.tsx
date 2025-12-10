@@ -19,13 +19,13 @@ export const Contact: React.FC = () => {
 
                 <div className="order-1 md:order-2 w-full md:w-auto flex flex-col space-y-8 md:space-y-12">
                     <Reveal delay={200}>
-                        <a href="mailto:hello@kaylife.com" className="group flex items-center space-x-8 hover:translate-x-4 transition-transform duration-500">
+                        <a href="mailto:Kay.life173@gmail.com" className="group flex items-center space-x-8 hover:translate-x-4 transition-transform duration-500">
                             <div className="p-3 border-b border-warm-taupe/20 group-hover:border-warm-taupe transition-colors duration-500">
                                 <Mail className="w-5 h-5 text-slate-blue group-hover:text-warm-taupe transition-colors" />
                             </div>
                             <div className="flex flex-col">
                                 <span className="font-sans text-[10px] uppercase tracking-[0.2em] text-slate-400 mb-1">Email</span>
-                                <span className="font-serif text-2xl md:text-3xl text-slate-blue">hello@kaylife.com</span>
+                                <span className="font-serif text-2xl md:text-3xl text-slate-blue">Kay.life173@gmail.com</span>
                             </div>
                         </a>
                     </Reveal>
@@ -37,7 +37,7 @@ export const Contact: React.FC = () => {
                             </div>
                             <div className="flex flex-col">
                                 <span className="font-sans text-[10px] uppercase tracking-[0.2em] text-slate-400 mb-1">Based In</span>
-                                <span className="font-serif text-2xl md:text-3xl text-slate-blue">New York, NY</span>
+                                <span className="font-serif text-2xl md:text-3xl text-slate-blue">Mumbai India</span>
                             </div>
                         </div>
                     </Reveal>
