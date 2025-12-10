@@ -43,7 +43,7 @@ export const Contact: React.FC = () => {
                     </Reveal>
 
                     <Reveal delay={400}>
-                        <a href="https://instagram.com" className="group flex items-center space-x-8 hover:translate-x-4 transition-transform duration-500">
+                        <a href="https://instagram.com/kay.life173" className="group flex items-center space-x-8 hover:translate-x-4 transition-transform duration-500">
                             <div className="p-3 border-b border-warm-taupe/20 group-hover:border-warm-taupe transition-colors duration-500">
                                 <Instagram className="w-5 h-5 text-slate-blue group-hover:text-warm-taupe transition-colors" />
                             </div>

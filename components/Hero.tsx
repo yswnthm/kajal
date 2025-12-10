@@ -40,10 +40,10 @@ export const Hero: React.FC = () => {
 
                     <Reveal delay={800}>
                         <div className="flex space-x-10 text-icon-blue/80">
-                            <a href="#contact" className="hover:text-warm-taupe hover:scale-110 transition-all duration-500">
+                            <a href="https://instagram.com/kay.life173" target="_blank" rel="noopener noreferrer" className="hover:text-warm-taupe hover:scale-110 transition-all duration-500">
                                 <Instagram className="w-5 h-5 stroke-[1.5]" />
                             </a>
-                            <a href="#contact" className="hover:text-warm-taupe hover:scale-110 transition-all duration-500">
+                            <a href="mailto:Kay.life173@gmail.com" className="hover:text-warm-taupe hover:scale-110 transition-all duration-500">
                                 <Mail className="w-5 h-5 stroke-[1.5]" />
                             </a>
                         </div>
