@@ -4,6 +4,7 @@ import { AboutMe } from './components/AboutMe';
 import { WorkPictures } from './components/WorkPictures';
 import { WorkVideos } from './components/WorkVideos';
 import { GreatFit } from './components/GreatFit';
+import { Approach } from './components/Approach';
 import { Contact } from './components/Contact';
 
 const App: React.FC = () => {
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <WorkPictures />
       <WorkVideos />
       <GreatFit />
+      <Approach />
       <Contact />
     </div>
   );
