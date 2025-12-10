@@ -47,13 +47,13 @@ export const Hero: React.FC = () => {
                     <Reveal delay={800}>
                         <div className="flex items-center space-x-6 text-icon-blue/80 pt-4">
                             <a href="https://instagram.com/kay.life173" target="_blank" rel="noopener noreferrer" className="group flex items-center space-x-2 transition-all duration-300 hover:text-warm-taupe">
-                                <span className="p-2 border border-current rounded-full group-hover:bg-warm-taupe group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                                <span className="transition-all duration-300">
                                     <Instagram className="w-5 h-5 stroke-[1.5]" />
                                 </span>
                                 <span className="text-sm tracking-widest uppercase opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0 transition-all duration-300 hidden md:inline-block">Instagram</span>
                             </a>
                             <a href="mailto:Kay.life173@gmail.com" className="group flex items-center space-x-2 transition-all duration-300 hover:text-warm-taupe">
-                                <span className="p-2 border border-current rounded-full group-hover:bg-warm-taupe group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                                <span className="transition-all duration-300">
                                     <Mail className="w-5 h-5 stroke-[1.5]" />
                                 </span>
                                 <span className="text-sm tracking-widest uppercase opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0 transition-all duration-300 hidden md:inline-block">Email Me</span>
