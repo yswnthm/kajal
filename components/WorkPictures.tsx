@@ -19,19 +19,19 @@ export const WorkPictures: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 px-4 md:px-0">
                     <div className="mt-0 md:mt-12">
                         <Reveal delay={100}>
-                            <WorkCard src="https://picsum.photos/800/600?random=1" alt="Skincare Minimal" />
+                            <WorkCard src="/images/img1.jpg" alt="Skincare Minimal" />
                             <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Morning Rituals</p>
                         </Reveal>
                     </div>
                     <div className="mt-0">
                         <Reveal delay={300}>
-                            <WorkCard src="https://picsum.photos/800/600?random=2" alt="Lifestyle Soft" />
+                            <WorkCard src="/images/img2.png" alt="Lifestyle Soft" />
                             <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Daily Essentials</p>
                         </Reveal>
                     </div>
                     <div className="mt-0 md:mt-12">
                         <Reveal delay={500}>
-                            <WorkCard src="https://picsum.photos/800/600?random=3" alt="Fashion Detail" />
+                            <WorkCard src="/images/img3.jpg" alt="Fashion Detail" />
                             <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Soft Fabrics</p>
                         </Reveal>
                     </div>
