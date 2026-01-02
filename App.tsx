@@ -6,6 +6,7 @@ import { WorkVideos } from './components/WorkVideos';
 import { GreatFit } from './components/GreatFit';
 import { Approach } from './components/Approach';
 import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <GreatFit />
       <Approach />
       <Contact />
+      <Footer />
     </div>
   );
 };
