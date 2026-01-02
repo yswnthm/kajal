@@ -20,19 +20,19 @@ export const WorkPictures: React.FC = () => {
                     <div className="mt-0 md:mt-12">
                         <Reveal delay={100}>
                             <WorkCard src="/images/img1.jpg" alt="Skincare Minimal" />
-                            <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Morning Rituals</p>
+                            <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Luminous Rituals</p>
                         </Reveal>
                     </div>
                     <div className="mt-0">
                         <Reveal delay={300}>
                             <WorkCard src="/images/img2.png" alt="Lifestyle Soft" />
-                            <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Daily Essentials</p>
+                            <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Botanical Balance</p>
                         </Reveal>
                     </div>
                     <div className="mt-0 md:mt-12">
                         <Reveal delay={500}>
                             <WorkCard src="/images/img3.jpg" alt="Fashion Detail" />
-                            <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Soft Fabrics</p>
+                            <p className="mt-4 font-serif text-center md:text-left text-lg text-slate-blue/70">Effortless Protection</p>
                         </Reveal>
                     </div>
                 </div>
