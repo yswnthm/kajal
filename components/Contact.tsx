@@ -5,7 +5,7 @@ import { Instagram, Mail, MapPin } from 'lucide-react';
 
 export const Contact: React.FC = () => {
     return (
-        <SectionWrapper id="contact" pageNumber="07" bgText="CONTACT">
+        <SectionWrapper id="contact" pageNumber="08" bgText="CONTACT">
             <div className="flex flex-col md:flex-row h-full items-center justify-between gap-16 py-12">
 
                 <div className="order-2 md:order-1 relative w-full md:w-auto">
