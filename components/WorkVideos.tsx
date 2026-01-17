@@ -18,13 +18,13 @@ export const WorkVideos: React.FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 px-8 md:px-0">
                     <Reveal delay={100}>
-                        <VideoCard src="https://picsum.photos/800/600?random=4" caption="Morning Routine" />
+                        <VideoCard src="/video1.mov" caption="Morning Routine" />
                     </Reveal>
                     <Reveal delay={300}>
-                        <VideoCard src="https://picsum.photos/800/600?random=5" caption="Aesthetics" />
+                        <VideoCard src="/video2.mov" caption="Aesthetics" />
                     </Reveal>
                     <Reveal delay={500}>
-                        <VideoCard src="https://picsum.photos/800/600?random=6" caption="GRWM Style" />
+                        <VideoCard src="/video3.mov" caption="GRWM Style" />
                     </Reveal>
                 </div>
             </div>
