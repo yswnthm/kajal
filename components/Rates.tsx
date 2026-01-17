@@ -57,40 +57,40 @@ export const Rates: React.FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                     <RateCard
-                        title="The Aesthetic"
-                        price="₹10,000"
-                        description="High-quality static imagery to elevate your feed and product showcase."
+                        title="Dedicated Reel"
+                        price="₹20,000+"
+                        description="A focused, high-quality reel dedicated to your brand's message and aesthetics."
                         features={[
-                            "5 High-Res Edited Photos",
-                            "Product Styling",
-                            "Retouching & Color Grading",
-                            "Organic Usage Rights"
+                            "1 Dedicated Reel",
+                            "Story Reshare",
+                            "Concept & Scripting",
+                            "High Quality Editing",
+                            "Cover Image Design"
                         ]}
                         delay={100}
                     />
                     <RateCard
-                        title="The Standard"
-                        price="₹15,000"
-                        description="A scroll-stopping video designed to engage and convert your audience."
+                        title="Collab Reel"
+                        price="₹25,000+"
+                        description="Maximize reach with a collaborator tag, leveraging both our audiences."
                         features={[
-                            "1 UGC Video (15-30s)",
+                            "1 Reel with Collab Tag",
+                            "Story Reshare",
+                            "Expanded Reach",
                             "Concept & Scripting",
-                            "Voiceover / Trending Audio",
-                            "Editing & Text Overlays",
-                            "Organic Usage Rights"
+                            "High Quality Editing"
                         ]}
                         delay={200}
                     />
                     <RateCard
-                        title="The Bundle"
-                        price="₹50,000"
-                        description="A comprehensive package for a consistent month-long brand presence."
+                        title="Ad / Usage Rights"
+                        price="₹5,000"
+                        description="Secure rights to use content for paid advertisements and commercial purposes."
                         features={[
-                            "4 UGC Videos",
-                            "2 Static Images",
-                            "Split Testing Hooks",
-                            "Monthly Strategy Call",
-                            "Organic Usage Rights"
+                            "Commercial Usage Rights",
+                            "Ad Account Whitelisting",
+                            "Raw Footage Access",
+                            "High-Res Files"
                         ]}
                         delay={300}
                     />
