@@ -5,9 +5,9 @@ import { Instagram, Mail, ArrowDown } from 'lucide-react';
 
 export const Hero: React.FC = () => {
     const images = [
-        'images/work1.jpg',
-        'images/product2.png',
-        'images/product3.png'
+        'images/img1.jpg',
+        'images/img2.png',
+        'images/img3.jpg'
     ];
     const [currentImageIndex, setCurrentImageIndex] = React.useState(0);
 
