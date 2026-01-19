@@ -21,7 +21,7 @@ export const WorkVideos: React.FC = () => {
                         <VideoCard src="/video1.mov" caption="Morning Routine" />
                     </Reveal>
                     <Reveal delay={300}>
-                        <VideoCard src="/video2.mov" caption="Aesthetics" />
+                        <VideoCard src="/newvideo2.mp4" caption="Aesthetics" />
                     </Reveal>
                     <Reveal delay={500}>
                         <VideoCard src="/video3.mov" caption="GRWM Style" />
